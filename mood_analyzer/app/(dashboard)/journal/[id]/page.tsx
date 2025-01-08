@@ -14,12 +14,14 @@ const getEntry = async(id) => {
     },
   })
 
+  return entry
 }
 
-const EntryPage = ({ params }) => {
+const EntryPage = async({ params }) => {
+  const entry = await getEntry(params.id)
   return (
-    <div>
-      <Editor />
+    <div className="h-full w-full">
+      <Editor entry={entry}/>
     </div>
   )
 }
