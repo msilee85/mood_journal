@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.5.1",
+    "@langchain/core": "^0.3.30",
+    "@langchain/langgraph": "^0.2.39",
+    "@langchain/openai": "^0.3.17",
     "@neondatabase/serverless": "^0.10.4",
     "@prisma/client": "^5.22.0",
+    "langchain": "^0.3.11",
     "next": "^15.1.4",
     "react": "18.2.0",
     "react-autosave": "^0.4.4",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/node": "^20",

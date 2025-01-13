@@ -3,6 +3,7 @@ import EntryCard from "@/components/EntryCard"
 import { getUserByClerkID } from "@/utils/auth"
 import { prisma } from "@/utils/db"
 import Link from "next/link"
+import { analyze } from "@/utils/ai"
 
 const getEntries = async () => {
   const user = await getUserByClerkID()
@@ -14,6 +15,8 @@ const getEntries = async () => {
       createdAt: 'desc',
     },
   })
+
+  await analyze('Today was okay. Made some progress, but not feeling very motivated.')
 
   return entries
 }
