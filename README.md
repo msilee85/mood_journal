@@ -1,1 +1,1 @@
-# mood_journal
+# Mood Journal
