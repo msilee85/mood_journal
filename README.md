@@ -4,15 +4,15 @@ Mood Journal is a powerful journal application that analyzes the mood of your jo
 
 # Features
 
-## Mood Analysis: Gain insights into the emotional tone of your journal entries.
+- Mood Analysis: Gain insights into the emotional tone of your journal entries.
 
-## User-Friendly Interface: Clean, modern design with Tailwind CSS for seamless user experience.
+- User-Friendly Interface: Clean, modern design with Tailwind CSS for seamless user experience.
 
-## AI-Powered Insights: Utilize OpenAI and LangChain to provide in-depth analysis.
+- AI-Powered Insights: Utilize OpenAI and LangChain to provide in-depth analysis.
 
-## Cloud-Hosted Database: Secure and scalable data storage using a serverless Prisma database on Neon.
+- Cloud-Hosted Database: Secure and scalable data storage using a serverless Prisma database on Neon.
 
-## Fast and Scalable: Built with Next.js for optimal performance and scalability.
+- Fast and Scalable: Built with Next.js for optimal performance and scalability.
 
 # Technologies Used
 
